@@ -13,37 +13,37 @@ const BU_DATA = {
       id: "mass-elevation",
       name: "Mass Elevation Department",
       description:
-        "Dedicated to scenes that lift the entire theatre out of their seats with whistles, goosebumps, and slow-motion walks."
+        "Theatre lo andaru seats nunchi lechi whistles, goosebumps, slow-motion walks tho full charge avvalante design chesina elevation scenes ki special department."
     },
     {
       id: "action-violence",
       name: "Action & Violence Studies",
       description:
-        "Research on over-the-top fights, flying vehicles, and indestructible heroes operating on pure mass energy."
+        "Over-the-top fights, flying vehicles, indestructible heroes anni pure mass energy meeda run avvadam meeda research chese action violence department."
     },
     {
       id: "sentiment-emotion",
       name: "Sentiment & Emotion Engineering",
       description:
-        "Design and calibration of family sentiment, tear-jerker moments, and instant mood switches back to elevation."
+        "Family sentiment ni design cheyyadam, tear-jerker moments ni tune cheyyadam, elevation nunchi oka second lo emotion ki malli back elevation ki switch cheyyadam anni ikada engineering."
     },
     {
       id: "dialogue-punchology",
       name: "Dialogue Science & Punchology",
       description:
-        "Advanced study of punch dialogues that echo in theatres, memes, and group chats long after the scene ends."
+        "Theatre lo echo ayyye, memes lo repeat ayyye, group chats lo forward ayyye punch dialogues meeda advanced study chese science department idi."
     },
     {
       id: "interval-bang",
       name: "Interval Bang Theory",
       description:
-        "Focused on crafting interval blocks where the screen explodes, lights dim, and fans run to the canteen still shouting."
+        "Screen explode ayye, lights dim ayye, fans canteen ki run avthu kuda shout cheyyadam apegani interval blocks ni craft cheyyadam meeda focus chesina theory."
     },
     {
       id: "climax-physics",
       name: "Climax Physics (BoyaBalaya Law)",
       description:
-        "Applies BoyaBalaya Law, where physics bends, gravity negotiates, and the climax always lands in favour of the hero."
+        "Ikada BoyaBalaya Law apply avthundi, physics bend avthundi, gravity compromise avthundi, final climax matram hero favour lo ne landing avthundi."
     }
   ],
 
@@ -141,64 +141,63 @@ const BU_DATA = {
       unitId: "akhanda-balayya-entry-mechanics",
       lawTitle: "Law of Instant Elevation",
       lawStatement:
-        "When the hero steps into frame, background score must jump from silence to stadium level in one beat.",
+        "Hero frame lo step vesaga background score silent nunchi stadium level varaku okka beat lo jump ayipotundi.",
       explanation:
-        "Crowd heartbeat syncs with the drum beat. Science calls it noise, BoyaBalaya Law calls it elevation." 
+        "Crowd heartbeat drum beat tho sync avthundi. Science idi noise antundi, BoyaBalaya Law matram pure elevation antundi." 
     },
     {
       id: "law-agni-dialogue-resonance",
       unitId: "akhanda-agni-mass-dialogue-theory",
       lawTitle: "Agni Dialogue Resonance Law",
       lawStatement:
-        "Any dialogue delivered near fire automatically gains 300% bass, echo, and meme potential.",
+        "Fire daggara deliver chesina dialogue ki automatic ga 300% bass, echo, meme potential add ayipothundi.",
       explanation:
-        "When flames rise, words travel in slow motion, burning straight into the front-bench whistle section."
+        "Flames rise ayye moment lo words slow motion lo travel ayi direct ga front-bench whistle section lo burn ayipothayi."
     },
     {
       id: "law-villain-fragmentation",
       unitId: "akhanda-villain-destruction-algorithms",
       lawTitle: "Villain Fragmentation Principle",
       lawStatement:
-        "One hero punch can split a single villain into three slow-motion replays from different angles.",
+        "Oka hero punch valla okka villain three different angles nunchi slow-motion replay lo fragment avutadu.",
       explanation:
-        "Every impact is conserved by replaying it multiple times so the audience can fully enjoy the damage report."
+        "Impact anni conserve cheyyali kabatti, same damage ni multiple times replay chesi audience ki full satisfaction istaru."
     },
     {
       id: "law-interval-shockwave",
       unitId: "akhanda-interval-bang-engineering",
       lawTitle: "Interval Shockwave Law",
       lawStatement:
-        "At interval bang, sound, lights, and goosebumps must peak simultaneously before the screen cuts to "
-          + "INTERVAL.",
+        "Interval bang time lo sound, lights, goosebumps anni kalsi same second lo peak ki vellali tarvata screen 'INTERVAL' ki cut avvali.",
       explanation:
-        "Snack sales and hype both spike exactly at this frame. This is the official reset button of the theatre." 
+        "Ade frame lo snack sales, hype rendu spike avthai. Idi theatre ki official reset button laga panichestundi." 
     },
     {
       id: "law-climax-rewrite",
       unitId: "akhanda-climax-justice-protocol",
       lawTitle: "Climax Justice Rewrite Law",
       lawStatement:
-        "In the final reel, every injustice committed in the movie must be settled within one extended monologue.",
+        "Final reel lo movie lo jarigina anni injustice ni oka lengthy monologue lo complete ga settle cheyyali.",
       explanation:
-        "Courts take years, but BoyaBalaya Law closes all cases before the end credits with extra background score."
+        "Courts ki years padachu, kani BoyaBalaya Law lo end credits mundey anni cases close ayipothayi, extra background score tho."
     },
     {
       id: "law-airport-anti-gravity",
       unitId: "skanda-airport-fight-physics",
       lawTitle: "Airport Anti‑Gravity Law",
       lawStatement:
-        "During airport fights, luggage, villains, and vehicles are all allowed temporary freedom from gravity.",
+        "Airport fight start ayyaka luggage, villains, vehicles anni ki konchem time ki gravity free pass istaru.",
       explanation:
-        "Physics officers go on coffee break so that every throw, flip, and jump can reach maximum slow-motion height."
+        "Physics officers coffee break ki vellasar kabatti prathi throw, flip, jump maximum slow-motion height ki reach avthundi."
     },
     {
       id: "law-speech-amplification",
       unitId: "skanda-climax-speech-dynamics",
       lawTitle: "Climax Speech Amplification Law",
       lawStatement:
-        "When the hero starts a climax speech, even distant loudspeakers automatically route the audio in HD.",
+        "Hero climax speech start chesaka, dooram lo unna loudspeakers kuda automatic ga HD audio mode ki shift ayipothayi.",
       explanation:
-        "No mic, no problem. Mass acoustics ensure every word reaches the villain, the crowd, and the balcony row." 
+        "Mic lekapoyina parledhu, mass acoustics valla prathi maat villain, crowd, balcony last row varaku clear ga reach avthundi." 
     }
   ]
 };

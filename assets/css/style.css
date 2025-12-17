@@ -489,6 +489,234 @@ a:hover {
     rgba(5, 5, 8, 0.98);
 }
 
+/* Unit detail + video + BoyaBalayya Law */
+.bu-unit-detail {
+  margin-bottom: 2.6rem;
+}
+
+.bu-unit-detail-header {
+  margin-bottom: 1.6rem;
+}
+
+.bu-unit-detail-title {
+  margin: 0 0 0.3rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.bu-unit-detail-subtitle {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--bu-text-muted);
+}
+
+.bu-unit-video-wrapper {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  background:
+    radial-gradient(circle at 0 0, rgba(245, 196, 81, 0.16), transparent 55%),
+    radial-gradient(circle at 100% 100%, rgba(255, 59, 71, 0.24), transparent 55%),
+    rgba(5, 5, 10, 0.98);
+  border-radius: var(--bu-radius-lg);
+  border: 1px solid rgba(245, 196, 81, 0.32);
+  padding: 0.9rem;
+  box-shadow: var(--bu-shadow-soft-sm);
+}
+
+.bu-unit-video-aspect {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  border-radius: calc(var(--bu-radius-lg) - 4px);
+  overflow: hidden;
+  background: #000;
+}
+
+.bu-unit-video-aspect iframe,
+.bu-unit-video-aspect video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: inherit;
+}
+
+.bu-unit-video-message {
+  padding: 1.4rem 1.1rem;
+  text-align: center;
+  font-size: 0.96rem;
+  color: var(--bu-text-muted);
+}
+
+.bu-law-section {
+  margin: 2.2rem 0 0;
+  position: relative;
+}
+
+.bu-law-section::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--bu-gold), transparent);
+  opacity: 0.7;
+}
+
+.bu-law-header {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: 1.2rem;
+  color: var(--bu-gold);
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.bu-law-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  text-shadow: 0 0 8px rgba(245, 196, 81, 0.7);
+}
+
+.bu-law-card {
+  position: relative;
+  background: linear-gradient(145deg, #070304, #19080a);
+  border-radius: var(--bu-radius-md);
+  padding: 1.8rem 1.6rem 1.7rem;
+  border: 1px solid rgba(245, 196, 81, 0.38);
+  box-shadow:
+    0 0 0 1px rgba(245, 196, 81, 0.18),
+    0 20px 55px rgba(0, 0, 0, 0.9);
+  overflow: hidden;
+}
+
+.bu-law-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background:
+    radial-gradient(circle at 0 0, rgba(245, 196, 81, 0.18), transparent 55%),
+    radial-gradient(circle at 100% 100%, rgba(255, 59, 71, 0.18), transparent 55%);
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.bu-law-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--bu-gold), var(--bu-red));
+}
+
+.bu-law-title {
+  position: relative;
+  margin: 0 0 1.1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--bu-gold);
+  text-shadow: 0 0 10px rgba(245, 196, 81, 0.35);
+}
+
+.bu-law-title::after {
+  content: "";
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+  width: 52px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--bu-gold), transparent);
+}
+
+.bu-law-statement {
+  position: relative;
+  margin: 1.3rem 0 1.6rem;
+  padding: 0 1.4rem;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-weight: 500;
+  color: #ffffff;
+  font-style: italic;
+  text-align: center;
+}
+
+.bu-law-statement::before,
+.bu-law-statement::after {
+  content: '"';
+  position: absolute;
+  font-family: serif;
+  font-size: 2.6rem;
+  color: var(--bu-gold);
+  opacity: 0.7;
+  line-height: 1;
+}
+
+.bu-law-statement::before {
+  top: -14px;
+  left: -4px;
+}
+
+.bu-law-statement::after {
+  bottom: -24px;
+  right: -4px;
+}
+
+.bu-law-explanation {
+  position: relative;
+  margin: 1.6rem 0 0;
+  padding-top: 1.3rem;
+  font-size: 0.96rem;
+  line-height: 1.7;
+  color: var(--bu-text-muted);
+  border-top: 1px dashed rgba(245, 196, 81, 0.28);
+}
+
+@keyframes bu-law-pulse {
+  0%,
+  100% {
+    box-shadow:
+      0 0 0 1px rgba(245, 196, 81, 0.18),
+      0 20px 45px rgba(0, 0, 0, 0.9);
+  }
+  50% {
+    box-shadow:
+      0 0 0 1px rgba(245, 196, 81, 0.38),
+      0 24px 60px rgba(0, 0, 0, 1);
+  }
+}
+
+.bu-law-card {
+  animation: bu-law-pulse 4s ease-in-out infinite;
+}
+
+@media (max-width: 640px) {
+  .bu-unit-video-wrapper {
+    padding: 0.75rem;
+  }
+
+  .bu-law-card {
+    padding: 1.5rem 1.25rem 1.4rem;
+  }
+
+  .bu-law-statement {
+    font-size: 1.05rem;
+    padding: 0 1rem;
+  }
+}
+
 .bu-section-header {
   margin-bottom: 1.6rem;
 }
