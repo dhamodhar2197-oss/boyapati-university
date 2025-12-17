@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Boyapati University | Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Boyapati University - A over-the-top parody cinematic university where every lecture is a climax scene." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body data-page="home">
+  <div class="bu-noise-layer" aria-hidden="true"></div>
+
+  <header class="bu-header">
+    <div class="bu-container bu-header-inner">
+      <a href="index.html" class="bu-logo">
+        <span class="bu-logo-mark">BU</span>
+        <span class="bu-logo-text">
+          <span class="bu-logo-title">Boyapati University</span>
+          <span class="bu-logo-subtitle">Parody School of Cinematic Mayhem</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle>
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+      </button>
+
+      <nav class="bu-nav" data-nav>
+        <ul class="bu-nav-list">
+          <li><a href="index.html" data-page-link="home">Home</a></li>
+          <li><a href="departments.html" data-page-link="departments">Departments</a></li>
+          <li><a href="subjects.html" data-page-link="subjects">Subjects</a></li>
+          <li><a href="units.html" data-page-link="units">Units</a></li>
+          <li><a href="faculty.html" data-page-link="faculty">Faculty</a></li>
+          <li><a href="toppers.html" data-page-link="toppers">Toppers</a></li>
+          <li><a href="exams.html" data-page-link="exams">Exams</a></li>
+          <li><a href="results.html" data-page-link="results">Results</a></li>
+          <li><a href="certificate.html" data-page-link="certificate">Certificates</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="bu-main">
+    <section class="bu-hero">
+      <div class="bu-container">
+        <div class="bu-hero-inner">
+          <p class="bu-kicker">Mass Cinematic Entry</p>
+          <h1 class="bu-hero-title">BOYAPATI UNIVERSITY</h1>
+          <p class="bu-hero-tagline">"No Newton Law. Only BoyaBalaya Law."</p>
+          <p class="bu-hero-subtitle">
+            Boyapati University is a fun, cinematic parody university inspired by mass Telugu cinema.
+            This is not a real university, but it delivers real mass feeling.
+          </p>
+          <div class="bu-hero-actions">
+            <a href="departments.html" class="bu-btn bu-btn-primary">Enter the University</a>
+            <a href="#boyalaws" class="bu-btn bu-btn-ghost">View BoyaBalayya Laws</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bu-section" id="boyalaws">
+      <div class="bu-container">
+        <header class="bu-section-header">
+          <p class="bu-kicker">BoyaBalayya Laws</p>
+          <h2>The Rules of Mass Physics</h2>
+          <p class="bu-section-subtitle">
+            A fictional rulebook where gravity is optional, elevation is guaranteed,
+            and every punchline has its own background music. These laws exist only
+            inside the Boyapati University cinematic universe.
+          </p>
+        </header>
+      </div>
+    </section>
+
+    <section class="bu-section">
+      <div class="bu-container">
+        <header class="bu-section-header">
+          <p class="bu-kicker">Choose Your Chaos</p>
+          <h2>Signature Departments</h2>
+          <p class="bu-section-subtitle">A quick tease of our most explosive programs, rendered straight from script-like data.</p>
+        </header>
+        <div id="home-departments" class="bu-grid"></div>
+      </div>
+    </section>
+
+    <section class="bu-section bu-section-alt">
+      <div class="bu-container">
+        <header class="bu-section-header">
+          <p class="bu-kicker">Legends of the Campus</p>
+          <h2>Featured Toppers</h2>
+          <p class="bu-section-subtitle">Students who topped the class and also the number of slow-motion entries per minute.</p>
+        </header>
+        <div id="home-toppers" class="bu-grid"></div>
+      </div>
+    </section>
+
+    <section class="bu-section">
+      <div class="bu-container">
+        <header class="bu-section-header">
+          <p class="bu-kicker">Edge-of-Seat Scheduling</p>
+          <h2>Upcoming Dramatic Exams</h2>
+          <p class="bu-section-subtitle">Every exam is designed like a climax sequence. Results are imaginary, suspense is real.</p>
+        </header>
+        <div id="home-exams" class="bu-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bu-footer">
+    <div class="bu-container bu-footer-inner">
+      <p>
+        &copy; <span id="bu-year"></span> Boyapati University.
+        All characters, exams, and certificates on this site are fictional and created for cinematic parody only.
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
